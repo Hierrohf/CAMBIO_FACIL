@@ -1,0 +1,4 @@
+api:
+  exchangerate:
+    base-url: https://api.exchangerate.host
+    key: ???

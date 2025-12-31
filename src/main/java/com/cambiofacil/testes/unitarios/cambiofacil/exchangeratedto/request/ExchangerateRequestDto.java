@@ -1,8 +1,10 @@
-package com.cambiofacil.testes.unitarios.cambiofacil.dto.request;
+package com.cambiofacil.testes.unitarios.cambiofacil.exchangeratedto.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
+
+import java.math.BigDecimal;
 
 
 public record ExchangerateRequestDto(
@@ -16,6 +18,6 @@ public record ExchangerateRequestDto(
         String to,
 
         @NotNull
-        Long amount
+        BigDecimal amount
 ) {
 }
