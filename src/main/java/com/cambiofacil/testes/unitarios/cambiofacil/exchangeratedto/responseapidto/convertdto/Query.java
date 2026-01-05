@@ -1,4 +1,4 @@
-package com.cambiofacil.testes.unitarios.cambiofacil.exchangeratedto.response;
+package com.cambiofacil.testes.unitarios.cambiofacil.exchangeratedto.responseapidto.convertdto;
 
 import java.math.BigDecimal;
 
